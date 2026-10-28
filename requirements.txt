@@ -1,0 +1,4 @@
+perch-hoplite[tf-cuda]==1.0.2
+# cuDNN >= 9.4 has no working conv kernels for Pascal GPUs (GTX 10xx): autotuning
+# fails with "No valid config found". 9.3.0.75 is what TensorFlow 2.21 is built against.
+nvidia-cudnn-cu12==9.3.0.75

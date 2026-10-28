@@ -314,3 +314,6 @@ __marimo__/
 
 # Claude Code MCP config (points to a local PyCharm MCP server port)
 .mcp.json
+
+# Downloaded audio, embeddings and built indexes (large, not ours to redistribute)
+datasets/
